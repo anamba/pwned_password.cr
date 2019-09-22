@@ -6,17 +6,17 @@
 
 Implements API v2 of Troy Hunt's HIBP to check whether a given password has been exposed in a breach.
 
-https://haveibeenpwned.com/API/v2#PwnedPasswords
+<https://haveibeenpwned.com/API/v2#PwnedPasswords>
 
 ## Installation
 
-1. Add the dependency to your `shard.yml`:
+1.  Add the dependency to your `shard.yml`:
 ```yaml
 dependencies:
   pwned_password:
     github: anamba/pwned_password.cr
 ```
-2. Run `shards install`
+2.  Run `shards install`
 
 ## Usage
 
@@ -29,12 +29,12 @@ PwnedPassword.search("f7Yr,f9dffF?eKeDpjepGwcc")     # -> nil (not found)
 
 ## Contributing
 
-1. Fork it (<https://github.com/anamba/pwned_password/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1.  Fork it (<https://github.com/anamba/pwned_password/fork>)
+2.  Create your feature branch (`git checkout -b my-new-feature`)
+3.  Commit your changes (`git commit -am 'Add some feature'`)
+4.  Push to the branch (`git push origin my-new-feature`)
+5.  Create a new Pull Request
 
 ## Contributors
 
-- [Aaron Namba](https://github.com/anamba) - creator and maintainer
+-   [Aaron Namba](https://github.com/anamba) - creator and maintainer
