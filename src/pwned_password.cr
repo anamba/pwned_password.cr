@@ -8,7 +8,7 @@ require "http/client"
 # PwnedPassword.search("f7Yr,f9dffF?eKeDpjepGwcc")     # -> nil (not found)
 # ```
 module PwnedPassword
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 
   class Error < Exception
   end
